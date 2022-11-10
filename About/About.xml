@@ -11,13 +11,13 @@
 		<li>1.1</li>
 	</supportedVersions>
 	<description>
-UPDATED FOR 1.3 (COMPATIBLE WITH 1.1 AND 1.2)
-THIS MOD WILL BE INCOMPATIBLE WITH ANY MOD THAT ALTERS WHAT THIS MOD CHANGES.
+!!! UPDATED FOR 1.4 !!!
+THIS MOD WILL BE INCOMPATIBLE WITH ANY MOD THAT ALTERS MEAL OR FOOD COST.
 
-Meals and food will cost less. This is an addon to the core Kenney's Fixes Mod (Though the original isn't required.)
-Link to the core mod: https://steamcommunity.com/sharedfiles/filedetails/?id=1452835233
-
-*** See the workshop page for a more in-depth list of meal cost changes! ***
+Meals and food will cost less. Details can be found on the workshop page.
+If you are interested in the core mod, which applies some QoL changes to
+power consumption and flammability, you can find it here:
+https://steamcommunity.com/sharedfiles/filedetails/?id=1452835233
 	</description>
 </ModMetaData>
 

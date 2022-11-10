@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!-- Kibble -->
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="Make_Kibble"]/ingredients/li[1]/count/text()</xpath>
+  <value>
+    0.75
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="Make_Kibble"]/ingredients/li[2]/count/text()</xpath>
+  <value>
+    0.75
+  </value>
+</Operation>
+<!-- Pemmican -->
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="Make_Pemmican"]/ingredients/li[1]/count/text()</xpath>
+  <value>
+    0.2
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="Make_Pemmican"]/ingredients/li[2]/count/text()</xpath>
+  <value>
+    0.2
+  </value>
+</Operation>
+<!-- Make Pemmican Bulk -->
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="Make_PemmicanBulk"]/ingredients/li[1]/count/text()</xpath>
+  <value>
+    0.8
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="Make_PemmicanBulk"]/ingredients/li[2]/count/text()</xpath>
+  <value>
+    0.8
+  </value>
+</Operation>
+</Patch>

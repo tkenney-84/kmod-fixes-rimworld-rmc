@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- The game multiplies all cost values by 20 to get the actual number of items consumed. -->
+
+<!-- Simple Meals -->
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealSimple"]/ingredients/li/count/text()</xpath>
+  <value>
+    0.2
+  </value>
+</Operation>
+<!-- Simple Meals Bulk -->
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealSimpleBulk"]/ingredients/li/count/text()</xpath>
+  <value>
+    0.8
+  </value>
+</Operation>
+<!-- Fine Meals -->
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealFine"]/ingredients/li[1]/count/text()</xpath>
+  <value>
+    0.1
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealFine"]/ingredients/li[2]/count/text()</xpath>
+  <value>
+    0.1
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealFine_Veg" or defName="CookMealFine_Meat"]/ingredients/li/count/text()</xpath>
+  <value>
+    0.35
+  </value>
+</Operation>
+<!-- Fine Meals Bulk -->
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealFineBulk"]/ingredients/li[1]/count/text()</xpath>
+  <value>
+    0.4
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealFineBulk"]/ingredients/li[2]/count/text()</xpath>
+  <value>
+    0.4
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealFineBulk_Veg" or defName="CookMealFineBulk_Meat"]/ingredients/li/count/text()</xpath>
+  <value>
+    1.4
+  </value>
+</Operation>
+<!-- Lavish Meals -->
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealLavish"]/ingredients/li[1]/count/text()</xpath>
+  <value>
+    0.2
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealLavish"]/ingredients/li[2]/count/text()</xpath>
+  <value>
+    0.2
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealLavish_Veg" or defName="CookMealLavish_Meat"]/ingredients/li/count/text()</xpath>
+  <value>
+    0.7
+  </value>
+</Operation>
+<!-- Fine Meals Bulk -->
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealLavishBulk"]/ingredients/li[1]/count/text()</xpath>
+  <value>
+    0.8
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealLavishBulk"]/ingredients/li[2]/count/text()</xpath>
+  <value>
+    0.8
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealLavishBulk_Veg" or defName="CookMealLavishBulk_Meat"]/ingredients/li/count/text()</xpath>
+  <value>
+    2.8
+  </value>
+</Operation>
+<!-- Packaged Survival Meals -->
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealSurvival"]/ingredients/li[1]/count/text()</xpath>
+  <value>
+    0.25
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealSurvival"]/ingredients/li[2]/count/text()</xpath>
+  <value>
+    0.25
+  </value>
+</Operation>
+<!-- Packaged Survival Meals Bulk -->
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealSurvivalBulk"]/ingredients/li[1]/count/text()</xpath>
+  <value>
+    1.0
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/RecipeDef[defName="CookMealSurvivalBulk"]/ingredients/li[2]/count/text()</xpath>
+  <value>
+    1.0
+  </value>
+</Operation>
+</Patch>
